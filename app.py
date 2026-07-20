@@ -43,7 +43,9 @@ def predict():
     results = model.predict(
         source=upload_path,
         conf=0.4,
-        save=True
+        save=True,
+        verbose=False,
+        imgsz=320
     )
 
     print("Prediction folder contents:")
