@@ -1,0 +1,30 @@
+<!-- This keeps the Docker image smaller and avoids copying unnecessary files. -->
+<!-- # Python virtual environment -->
+venv/
+.venv/
+
+<!-- # Python cache -->
+__pycache__/
+*.pyc
+
+<!-- # Jupyter files -->
+.ipynb_checkpoints/
+
+<!-- # Git -->
+.git/
+.gitignore
+
+<!-- # IDE -->
+.vscode/
+
+<!-- # OS files -->
+.DS_Store
+Thumbs.db
+
+<!-- # YOLO generated files -->
+runs/
+*.cache
+
+<!-- # Uploaded images / results -->
+static/uploads/*
+static/results/*
